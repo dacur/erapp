@@ -1,0 +1,115 @@
+<ion-view view-title="Home">
+  <ion-content class="padding">
+    <div class="row">
+    <div class="col">
+      <img src="img/logo1.png" style="width:100%" />
+    </div>
+  </div>
+    <div class="row">
+    <div class="col">
+      <h4>Use this app to get immediate help with your water or fire damage needs from the experts in the business!</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <h4>Step 1: </h4>
+    </div>
+        <div class="col-75">
+      <button ng-click="takePicture()" class="button button-stable" style="width:100% !important;"><i class="icon ion-camera"></i> Take a picture</button> 
+    </div>
+  </div>
+<!--   <div class="row" style="height:20px;"></div>
+  <div class="row">
+    <div class="col-25">
+      <h4>Step 2: </h4>
+    </div>
+    <div class="col-75">
+      <a href='mailto:dacur7@gmail.com?subject=Photo sent from app&body=Hello, I just used your app to take a photo of our situation. I will be calling you shortly. <img src="{{imgURI}}" height="200" width="200" alt="image not sent" />'><button class="button button-stable" style="width:100% !important;"><i class="icon ion-email"></i> Email us the picture</button></a> -->
+<!--       <a href="mailto:dacur7@gmail.com?subject=Photo of damage&body=This is a photo of the damage!&attachment={{imgURI}}"><button class="button button-stable" style="width:100% !important;"><i class="icon ion-email"></i> Email us the pictures</button></a> -->
+<!--     </div>
+  </div> -->
+  <div class="row" style="height:20px;"></div>
+  <div class="row">
+    <div class="col-25">
+      <h4>Step 2: </h4>
+    </div>
+    <div class="col-75">
+      <button ng-click="open()" class="button button-stable" style="width:100% !important;"><i class="icon ion-email"></i> Email us the picture</button>
+    </div>
+  </div>
+  <div class="row" style="height:20px;"></div>
+  <div class="row">
+    <div class="col-25">
+      <h4>Step 3: </h4>
+    </div>
+    <div class="col-75">
+      <a href="tel:919-999-6553"><button class="button button-assertive" style="width:100% !important;"><i class="icon ion-iphone"></i> Call us now!</button></a>
+    </div>
+  </div>
+    <div class="row" style="height:20px;"></div>
+  <div class="row">
+    <div class="col-25">
+      <h4 ng-hide="!imgURI" >Image: </h4>
+    </div>
+    <div class="col-75">
+      <img id="myImage" ng-hide="!imgURI" src="{{imgURI}}" style="max-width: 100%; max-height: 300px;" />
+    </div>
+  </div>
+<!--   <div class="row">
+    <div class="col">
+      <img src="img/logo1.png" style="width:100%" />
+    </div>
+  </div>
+    <div class="row">
+    <div class="col">
+      <h4>Use this app to get immediate help with your water or fire damage needs from the experts in the business!</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h4>Step 1: </h4><button class="button button-" i class="icon ion-camera">Take some pictures</button> 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h4>Step 2: Send us the pictures <i class="icon ion-email"></i> </h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h4>Step 3: Call us! <i class="icon ion-iphone"></i> </h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <button class="button button-assertive" style="width:100%; min-height:100px;" href="tel:919-999-6553">
+      <h1 style="color:white !important;">Call Now!</h1>
+    </button>
+    </div>
+  </div> -->
+<!--     <div class="list card">
+      <div class="item item-divider">Recent Updates</div>
+      <div class="item item-body">
+        <div>
+          There is a fire in <b>sector 3</b>
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Health</div>
+      <div class="item item-body">
+        <div>
+          You ate an apple today!
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Upcoming</div>
+      <div class="item item-body">
+        <div>
+          You have <b>29</b> meetings on your calendar tomorrow.
+        </div>
+      </div>
+    </div> -->
+  </ion-content>
+</ion-view>
