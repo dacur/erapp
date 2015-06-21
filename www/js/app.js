@@ -59,7 +59,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       }
     }
   })
-
+  .state('tab.contact', {
+      url: '/contact',
+      views: {
+        'tab-contact': {
+          templateUrl: 'templates/tab-contact.html',
+          controller: 'ContactCtrl'
+        }
+      }
+    })
   .state('tab.chats', {
       url: '/chats',
       views: {
